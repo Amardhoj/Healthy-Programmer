@@ -36,7 +36,7 @@ if __name__ == '__main__':
             print("Eyes rest time. Enter 'done' to stop the alarm.")
             music_on_loop("eyes.mp3", "done")
             init_eyes = time()
-            log_now("Eyes rest at:")
+            log_now("Eyes rested at:")
 
         if time() - init_exercise > exercisesecs:
             print("Physical exercise time. Enter 'done' to stop the alarm.")
